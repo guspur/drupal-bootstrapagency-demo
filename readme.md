@@ -2,6 +2,7 @@
 
 1. you must  change database settings at settings.php to your settings. 
 example : 
+```
 $databases = array (
   'default' => 
   array (
@@ -17,6 +18,8 @@ $databases = array (
     ),
   ),
 );
+```
 2. you must use mysql for database
-3. drupal user is admin pass: admin
+3. dump  project.sql to your database
+4. drupal user is admin pass: admin
 
